@@ -27,16 +27,10 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Build deployable site
-        run: |
-          mkdir -p _site
-          cp -R index.html README.md payload _site/
-          node scripts/patch-showcase-ui.mjs _site/index.html
-
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: .
 
       - name: Deploy to GitHub Pages
         id: deployment
