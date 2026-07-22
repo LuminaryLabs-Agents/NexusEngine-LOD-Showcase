@@ -1,0 +1,14 @@
+{
+  "schema": "nexusengine.objaverse-catalog/1",
+  "description": "Curated, license-reviewed GLB source assets for the NexusEngine LOD Showcase. Add prepared Objaverse-derived GLBs here after review and attribution.",
+  "assets": [
+    {
+      "id": "procedural-reference",
+      "label": "Built-in procedural reference",
+      "sourceType": "procedural",
+      "license": "Generated",
+      "attribution": "NexusEngine LOD Showcase",
+      "quality": "baseline"
+    }
+  ]
+}
